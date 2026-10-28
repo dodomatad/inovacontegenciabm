@@ -2113,3 +2113,194 @@ body[data-surface="public"] .mobile-bottom-bar {
     width: 100% !important;
   }
 }
+
+/* ==========================================================================
+   Contas de Redes Sociais (Facebook, Instagram, TikTok)
+   ========================================================================== */
+
+.social-accounts-section,
+body[data-surface="public"] .social-accounts-section {
+  margin-bottom: 4rem !important;
+  scroll-margin-top: 90px !important;
+}
+
+.social-accounts-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 1.5rem !important;
+}
+
+.social-account-card {
+  background: #090d16 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 20px !important;
+  padding: 34px 26px 30px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6) !important;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease !important;
+}
+
+.social-account-card:hover {
+  transform: translateY(-4px) !important;
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.75) !important;
+}
+
+.social-card-topbar {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 3.5px !important;
+}
+
+/* Facebook Card */
+.social-account-card--facebook .social-card-topbar {
+  background: linear-gradient(90deg, #0084ff, #00d2ff) !important;
+}
+.social-account-card--facebook .social-card-icon-wrap {
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: 14px !important;
+  background: #0084ff !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto 18px !important;
+  box-shadow: 0 4px 16px rgba(0, 132, 255, 0.45) !important;
+}
+.social-account-card--facebook .social-card-check {
+  color: #0084ff !important;
+}
+.social-account-card--facebook .social-card-btn {
+  color: #0084ff !important;
+}
+.social-account-card--facebook .social-card-btn:hover {
+  box-shadow: 0 6px 20px rgba(0, 132, 255, 0.45) !important;
+}
+
+/* Instagram Card */
+.social-account-card--instagram .social-card-topbar {
+  background: linear-gradient(90deg, #c13584, #e1306c, #f77737) !important;
+}
+.social-account-card--instagram .social-card-icon-wrap {
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: 14px !important;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%) !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto 18px !important;
+  box-shadow: 0 4px 16px rgba(220, 39, 67, 0.45) !important;
+}
+.social-account-card--instagram .social-card-check {
+  color: #e1306c !important;
+}
+.social-account-card--instagram .social-card-btn {
+  color: #e1306c !important;
+}
+.social-account-card--instagram .social-card-btn:hover {
+  box-shadow: 0 6px 20px rgba(225, 48, 108, 0.45) !important;
+}
+
+/* TikTok Card */
+.social-account-card--tiktok .social-card-topbar {
+  background: linear-gradient(90deg, #fe2c55, #25f4ee) !important;
+}
+.social-account-card--tiktok .social-card-icon-wrap {
+  width: 52px !important;
+  height: 52px !important;
+  border-radius: 14px !important;
+  background: #fe2c55 !important;
+  color: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto 18px !important;
+  box-shadow: 0 4px 16px rgba(254, 44, 85, 0.45) !important;
+}
+.social-account-card--tiktok .social-card-check {
+  color: #fe2c55 !important;
+}
+.social-account-card--tiktok .social-card-btn {
+  color: #fe2c55 !important;
+}
+.social-account-card--tiktok .social-card-btn:hover {
+  box-shadow: 0 6px 20px rgba(254, 44, 85, 0.45) !important;
+}
+
+.social-card-title {
+  font-size: 1.25rem !important;
+  font-weight: 750 !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  margin-bottom: 24px !important;
+  letter-spacing: -0.01em !important;
+}
+
+.social-card-list {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 0 28px 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 13px !important;
+  flex-grow: 1 !important;
+}
+
+.social-card-list li {
+  display: flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  font-size: 13.5px !important;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+}
+
+.social-card-check {
+  flex-shrink: 0 !important;
+}
+
+.social-card-footer {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top: auto !important;
+  padding-top: 10px !important;
+}
+
+.social-card-btn {
+  background: #ffffff !important;
+  border-radius: 999px !important;
+  padding: 8px 36px !important;
+  font-size: 14px !important;
+  font-weight: 750 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.social-card-btn:hover {
+  transform: translateY(-2px) !important;
+}
+
+@media (max-width: 900px) {
+  .social-accounts-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.25rem !important;
+    max-width: 440px !important;
+    margin: 0 auto !important;
+  }
+}

@@ -932,6 +932,120 @@ function he() {
       </div>
     </section>
 
+              <section id="contas-sociais" class="social-accounts-section" aria-label="Contas de Facebook, Instagram e TikTok">
+            <div class="social-accounts-grid">
+              <!-- Card 1: Conta de Facebook -->
+              <article class="social-account-card social-account-card--facebook">
+                <div class="social-card-topbar"></div>
+                <div class="social-card-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M14 13.5h2.5l1-4H14v-2c0-1.03.2-1.5 1.5-1.5H17V2.5c-.8-.1-1.8-.2-3.1-.2C10.7 2.3 9 4 9 7.3V9.5H6.5v4H9V22h5v-8.5z"/>
+                  </svg>
+                </div>
+                <h3 class="social-card-title">Conta de Facebook</h3>
+                <ul class="social-card-list">
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Perfis antigos e aquecidos</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>2FA ativo e documentação validada</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Resistência a bloqueios</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Acesso completo e seguro</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Pronto para administrar páginas e BMs</span>
+                  </li>
+                </ul>
+                <div class="social-card-footer">
+                  <a href="https://wa.me/5581996176288?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20o%20portf%C3%B3lio%20de%20Contas%20de%20Facebook." target="_blank" rel="noopener noreferrer" class="social-card-btn" aria-label="Consultar portfólio de Contas de Facebook no WhatsApp">Portfólio</a>
+                </div>
+              </article>
+
+              <!-- Card 2: Conta de Instagram -->
+              <article class="social-account-card social-account-card--instagram">
+                <div class="social-card-topbar"></div>
+                <div class="social-card-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"></path>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                </div>
+                <h3 class="social-card-title">Conta de Instagram</h3>
+                <ul class="social-card-list">
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Contas antigas com engajamento</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Perfis formatados e aquecidos</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Seguidores reais e orgânicos</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Pronto para anúncios e direct</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Segurança e proteção antifraud</span>
+                  </li>
+                </ul>
+                <div class="social-card-footer">
+                  <a href="https://wa.me/5581996176288?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20o%20portf%C3%B3lio%20de%20Contas%20de%20Instagram." target="_blank" rel="noopener noreferrer" class="social-card-btn" aria-label="Consultar portfólio de Contas de Instagram no WhatsApp">Portfólio</a>
+                </div>
+              </article>
+
+              <!-- Card 3: Contas de Tiktok -->
+              <article class="social-account-card social-account-card--tiktok">
+                <div class="social-card-topbar"></div>
+                <div class="social-card-icon-wrap">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M4 6a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h9a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H4zm13.7 3.5a1 1 0 0 0-1.7.7v7.6a1 1 0 0 0 1.7.7l4.5-3.8a1 1 0 0 0 0-1.4l-4.5-3.8z"/>
+                  </svg>
+                </div>
+                <h3 class="social-card-title">Contas de Tiktok</h3>
+                <ul class="social-card-list">
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Contas TikTok Ads e orgânicas</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Configuradas para alcance viral</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Prontas para campanhas de conversão</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Pixel configurado e testado</span>
+                  </li>
+                  <li>
+                    <svg class="social-card-check" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+                    <span>Sem travamentos de verificação</span>
+                  </li>
+                </ul>
+                <div class="social-card-footer">
+                  <a href="https://wa.me/5581996176288?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20o%20portf%C3%B3lio%20de%20Contas%20de%20TikTok." target="_blank" rel="noopener noreferrer" class="social-card-btn" aria-label="Consultar portfólio de Contas de TikTok no WhatsApp">Portfólio</a>
+                </div>
+              </article>
+            </div>
+          </section>
+
     <section class="how-it-works-section" aria-label="Como funciona a entrega">
       <div class="section-header" style="margin-bottom: 1.5rem;">
         <div>
