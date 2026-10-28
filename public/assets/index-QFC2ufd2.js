@@ -862,11 +862,11 @@ function me() {
 }
 function he() {
   let e = [
-    [`Lucas S.`, `Gestor de Tráfego`, `L`, `Acesso liberado em minutos no WhatsApp. Já investimos mais de R$ 20k na BM Verificada BR sem nenhum bloqueio.`, `BM BR Verificada Ilimitada`],
-    [`Matheus B.`, `Agência de Lançamentos`, `M`, `A BM de 2.000 disparos rodou liso para mais de 10 mil leads no nosso lançamento. Suporte nota 10!`, `BM Disparo 2.000 Msgs/Dia`],
-    [`Rodrigo M.`, `Infoprodutor`, `R`, `Comecei com a BM de 250 disparos para validar o funil no Typebot e em 10 minutos já estava rodando.`, `BM Disparo 250 Msgs/Dia`],
-    [`Felipe A.`, `Operação de E-commerce`, `F`, `Comprei a BM Verificada e configurei os pixels sem estresse. Entrega imediata no WhatsApp conforme o combinado.`, `BM BR Verificada Ilimitada`],
-    [`Gabriel C.`, `Drop & Afiliado`, `G`, `Melhor suporte que já tive no mercado de contingência. Atendimento rápido e a BM veio 100% pronta para anunciar.`, `BM Disparo 2.000 Msgs/Dia`],
+    [`Lucas S.`, `Gestor de Tráfego`, `/images/testimonials/lucas.jpg`, `Acesso liberado em minutos no WhatsApp. Já investimos mais de R$ 20k na BM Verificada BR sem nenhum bloqueio.`, `BM BR Verificada Ilimitada`],
+    [`Matheus B.`, `Agência de Lançamentos`, `/images/testimonials/matheus.jpg`, `A BM de 2.000 disparos rodou liso para mais de 10 mil leads no nosso lançamento. Suporte nota 10!`, `BM Disparo 2.000 Msgs/Dia`],
+    [`Rodrigo M.`, `Infoprodutor`, `/images/testimonials/rodrigo.jpg`, `Comecei com a BM de 250 disparos para validar o funil no Typebot e em 10 minutos já estava rodando.`, `BM Disparo 250 Msgs/Dia`],
+    [`Felipe A.`, `Operação de E-commerce`, `/images/testimonials/felipe.jpg`, `Comprei a BM Verificada e configurei os pixels sem estresse. Entrega imediata no WhatsApp conforme o combinado.`, `BM BR Verificada Ilimitada`],
+    [`Gabriel C.`, `Drop & Afiliado`, `/images/testimonials/gabriel.jpg`, `Melhor suporte que já tive no mercado de contingência. Atendimento rápido e a BM veio 100% pronta para anunciar.`, `BM Disparo 2.000 Msgs/Dia`],
   ];
   return `
     <section id="disparos" class="disparos-section" aria-label="Estrutura de Disparos em Massa no WhatsApp">
@@ -987,7 +987,7 @@ function he() {
               <p class="testimonial-text">“${i}”</p>
               <div class="testimonial-footer">
                 <div class="testimonial-header">
-                  <div class="testimonial-avatar">${r}</div>
+                  <div class="testimonial-avatar"><img src="${r}" alt="${t}" width="36" height="36" loading="lazy"></div>
                   <div class="testimonial-meta">
                     <div class="testimonial-name">${t}</div>
                     <div class="testimonial-role">${n}</div>
