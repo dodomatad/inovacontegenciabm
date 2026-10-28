@@ -2304,3 +2304,65 @@ body[data-surface="public"] .social-accounts-section {
     margin: 0 auto !important;
   }
 }
+
+
+/* Official Social Icons and Buy on WhatsApp Button */
+.social-card-icon-wrap {
+  width: 58px !important;
+  height: 58px !important;
+  border-radius: 16px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 auto 18px !important;
+  overflow: hidden !important;
+  background: transparent !important;
+}
+
+.social-card-icon-wrap img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block !important;
+  border-radius: 16px !important;
+  transition: transform 0.25s ease !important;
+}
+
+.social-account-card:hover .social-card-icon-wrap img {
+  transform: scale(1.06) !important;
+}
+
+.social-account-card--facebook .social-card-icon-wrap img {
+  box-shadow: 0 8px 22px rgba(24, 119, 242, 0.45) !important;
+}
+
+.social-account-card--instagram .social-card-icon-wrap img {
+  box-shadow: 0 8px 22px rgba(225, 48, 108, 0.45) !important;
+}
+
+.social-account-card--tiktok .social-card-icon-wrap img {
+  box-shadow: 0 8px 22px rgba(254, 44, 85, 0.45) !important;
+}
+
+.social-card-btn {
+  background: #ffffff !important;
+  border-radius: 999px !important;
+  padding: 10px 22px !important;
+  font-size: 13.5px !important;
+  font-weight: 750 !important;
+  text-decoration: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  cursor: pointer !important;
+  border: none !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  white-space: nowrap !important;
+}
+
+.social-card-btn svg {
+  flex-shrink: 0 !important;
+}
+
