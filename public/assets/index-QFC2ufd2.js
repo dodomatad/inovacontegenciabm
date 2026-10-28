@@ -2521,7 +2521,7 @@ new (class {
           </div>
 
           <div class="site-footer__bottom">
-            <a class="site-footer__instagram" href="https://www.instagram.com/inovaestudio/" target="_blank" rel="noopener" aria-label="Siga a Inova Estúdio no Instagram">
+            <a class="site-footer__instagram" href="https://www.instagram.com/inovaestudio__?psln=MWVpaHlobWwyenV3bg%3D%3D&utm_source=qr" target="_blank" rel="noopener" aria-label="Siga a Inova Estúdio no Instagram">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                 <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"></path>
