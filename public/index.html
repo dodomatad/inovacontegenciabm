@@ -836,14 +836,104 @@
         color: #f8fafc !important;
         border: 1px solid rgba(0, 132, 255, 0.28) !important;
       }
+      .site-bg-overlay {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        height: 100dvh !important;
+        z-index: -9999 !important;
+        pointer-events: none !important;
+        background-color: #020c24 !important;
+        background-image: url('/images/bg-neon-site.png?v=meta-zap-mob-52') !important;
+        background-repeat: no-repeat !important;
+        background-position: center top !important;
+        background-size: cover !important;
+        transform: translate3d(0, 0, 0) !important;
+        -webkit-transform: translate3d(0, 0, 0) !important;
+        will-change: transform !important;
+      }
       @media (max-width: 768px) {
-        #product-categories .grid-responsive {
-          max-width: 85% !important;
+        #product-categories .grid-responsive,
+        .grid-responsive {
+          grid-template-columns: 1fr !important;
+          max-width: 360px !important;
+          width: 92% !important;
           margin: 0 auto !important;
+          gap: 1.1rem !important;
         }
         .product-card {
-          max-width: 85% !important;
+          max-width: 100% !important;
+          width: 100% !important;
           margin: 0 auto !important;
+          height: auto !important;
+        }
+        .product-card__body {
+          padding: 11px 13px !important;
+        }
+        .product-card__meta-top {
+          margin-bottom: 5px !important;
+          gap: 6px !important;
+        }
+        .product-card__title,
+        .product-card__title-link {
+          font-size: 0.94rem !important;
+          line-height: 1.25 !important;
+          margin-bottom: 3px !important;
+          min-height: 36px !important;
+          display: flex !important;
+          align-items: center !important;
+        }
+        .product-card__toggle-info {
+          padding: 4px 8px !important;
+          margin: 2px 0 4px 0 !important;
+          font-size: 11px !important;
+          min-height: 28px !important;
+        }
+        .product-card__price-box {
+          margin-top: 5px !important;
+          margin-bottom: 6px !important;
+          padding: 6px 10px !important;
+        }
+        .product-card__actions {
+          gap: 4px !important;
+        }
+        .product-card__buy {
+          height: 36px !important;
+          min-height: 36px !important;
+          padding: 0 12px !important;
+          font-size: 12px !important;
+          border-radius: 8px !important;
+        }
+        .product-card__details-btn {
+          height: 28px !important;
+          min-height: 28px !important;
+          font-size: 10.8px !important;
+          border-radius: 7px !important;
+        }
+        .hero-copy,
+        .nav-link-item,
+        .disparos-subtitle,
+        .disparos-card__content p,
+        .disparos-cta-info p,
+        .testimonial-text,
+        .testimonial-role,
+        .faq-cta-banner p,
+        .site-footer,
+        .site-footer p,
+        .site-footer a,
+        .site-footer span,
+        .site-footer li,
+        .site-footer small,
+        .footer-copy,
+        .text-secondary,
+        .text-muted {
+          color: #ffffff !important;
+        }
+        .hero-chip {
+          background: #ffffff !important;
+          color: #0e0e11 !important;
         }
       }
     </style>
@@ -1053,12 +1143,13 @@
       })();
     </script>
 
-    <script type="module" crossorigin src="/assets/index-QFC2ufd2.js?v=neon-45"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BcMmm4PH.css?v=neon-31">
-    <link rel="stylesheet" href="/assets/light-theme.css?v=newbg-50">
+    <script type="module" crossorigin src="/assets/index-QFC2ufd2.js?v=mob-52"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BcMmm4PH.css?v=mob-52">
+    <link rel="stylesheet" href="/assets/light-theme.css?v=mob-52">
   </head>
 
   <body data-surface="public">
+    <div class="site-bg-overlay" aria-hidden="true"></div>
     <div id="app">
       <div id="navbar-container">
         <header class="adsflowz-topbar">
