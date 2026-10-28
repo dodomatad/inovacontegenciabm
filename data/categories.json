@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "name": "Meta Ads & BMs Facebook",
+      "slug": "meta-ads",
+      "description": "Contas e BMs para Meta Ads (Facebook/Instagram)",
+      "visible": true,
+      "order": 1,
+      "createdAt": "2026-07-03T15:16:51.792Z",
+      "updatedAt": "2026-07-03T15:16:51.792Z",
+      "_count": {
+        "products": 3
+      }
+    }
+  ]
+}

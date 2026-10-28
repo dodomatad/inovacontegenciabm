@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/products", "destination": "/api/products.json" },
+    { "source": "/api/products/(.*)", "destination": "/api/products.json" },
+    { "source": "/api/categories", "destination": "/api/categories.json" },
+    { "source": "/politica-de-privacidade", "destination": "/politica-de-privacidade.html" },
+    { "source": "/termos-de-uso", "destination": "/termos-de-uso.html" },
+    { "source": "/((?!api|assets|images|fonts|.*\\..*).*)", "destination": "/index.html" }
+  ]
+}
