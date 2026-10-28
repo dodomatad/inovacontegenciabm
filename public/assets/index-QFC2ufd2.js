@@ -2530,8 +2530,6 @@ new (class {
               <span>Siga-nos no Instagram</span>
             </a>
             <p>&copy; 2026 Inova Estúdio. Todos os direitos reservados.</p>
-            <p>Razão Social: Inova Estúdio Serviços Digitais LTDA</p>
-            <p>CNPJ: 67.547.153/0001-24</p>
           </div>
         </div>
       </footer>
